@@ -13,7 +13,13 @@ export default function DashboardLayout({
 
         <title>Fathym EaC Runtime</title>
 
-        <link rel='shortcut icon' type='image/png' href='/thinky.png' />
+        <link
+          rel="shortcut icon"
+          type="image/png"
+          href="/assets/thinky.png"
+          data-eac-bypass-base
+        />
+        
         <link
           rel='stylesheet'
           href={`/tailwind/styles.css?Revision=${Revision}`}
